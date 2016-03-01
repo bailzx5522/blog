@@ -293,25 +293,28 @@
       
         
           
-            <h1 id="RSI指标"><a href="#RSI指标" class="headerlink" title="RSI指标"></a>RSI指标</h1><p><em>加重</em></p>
-<p><code>code</code></p>
-<p>The Relative Strength Index, or RSI is among the most popular indicators used by traders. The RSI provides information about the strength of the price movements on your charts, hence the name. In this article we will learn what the RSI really does, how to understand what it is showing and how to use it in your own trading.<br>相对强弱指数（RSI），是一个被广泛使用的的指标。正如其名，通过RSI指标可以直观的看出价格的强弱关系。</p>
-<p>The introduction – Understanding the RSI<br>The standard setting for the RSI is 14 periods which means that the RSI evaluates the last 14 candles, or time periods.</p>
-<p>The RSI compares the average gain and the average loss and analyses how many of the past 14 candles were bullish or bearish and also analyses the candle size of each candle.<br>For example, if all 14 price candles were bullish, the RSI would be 100 and if all 14 price candles were bearish, the RSI would be 0 (or relatively close to 100 and 0). And an RSI of 50 would mean that 7 past candles were bearish, 7 were bullish and the size of the average gain and loss was equal.</p>
-<p>Example 1<br>The screenshot below shows the most recent EUR/USD chart and the white highlighted area includes the past 14 price candles. Out of the past 14 candles, 13 were bullish and only 1 bearish candles was printed which resulted in a RSI of 85.</p>
+            <h1 id="RSI指标"><a href="#RSI指标" class="headerlink" title="RSI指标"></a>RSI指标</h1><p><em>这个 指标是我（译者）非常喜欢的一个，基本上，我也只使用这一种指标。因为他看起来清晰明了，不会使交易者分神在复杂的图表上。并且他直观的说明了当前走势（k线）的强／弱势。在震荡，趋势市场中都有他的用法，通过下面介绍的几种方法，可以从不同角度观察市场形势，从而做出赢率更大的判断。</em></p>
+<p><code>code xxx</code></p>
+<p>相对强弱指数（RSI），是一个被广泛使用的的指标。正如其名，通过RSI指标可以直观的看出价格的强弱关系。本文中会首先介绍RSI的计算过程，从而能看到这个指标所表现的市场哪一方面，最后会介绍RSI的使用方法。</p>
+<p>The introduction – Understanding the RSI</p>
+<h2 id="介绍RSI"><a href="#介绍RSI" class="headerlink" title="介绍RSI"></a>介绍RSI</h2><p>使用RSI的时候，只有一个默认值是14的配置项，这个配置，会使用之前14个K线（时间周期）的价格来计算RSI的值。</p>
+<p>从计算公式来看，RSI衡量的过去14个周期中，阴线数量，阳线数量，以及他们幅度之间的关系。假如，过去的14根K线都是阳线，那么RSI值就是100，反之如果之前14根K线都是阴线，那么RSI就是0.如果RSI值等于50，说明过去有7根阳线7根阴线，并且7根阴线的涨幅等于7根阴线的跌幅。</p>
+<p>举几个例子说明一下RSI是如何计算的。</p>
+<p>下图高亮部分，14根K中有13个阳线和1个阴线。最终计算出的RSI值是85</p>
 <p><img src="http://forex-blog.oss-cn-beijing.aliyuncs.com/RSI_1.png" alt="image"></p>
-<p>Example 2<br>The screenshot below also shows the EUR/USD chart and 3 highlighted areas of 14 candles each to understand how the RSI is being calculated.</p>
+<p>下图计算了3个高亮区域的RSI值</p>
 <p>RSI1<br><img src="http://forex-blog.oss-cn-beijing.aliyuncs.com/RSI_2.png" alt="image"></p>
-<p>The first area marks a very bearish period with 9 bearish candles, 4 very small bullish candles and 1 Doji. The RSI of this period was 15 which signals a very strong bearish phase.</p>
-<p>The second are includes 9 bullish candles and 5 (mostly small) bearish candles. The RSI of this period was 70 which is a relative strong bullish move.</p>
-<p>The third area includes 6 bullish candles, 8 bearish candles and 1 Doji, resulting in an RSI of 34 which signals moderate bearish strength.</p>
-<p>As you can see, just by analyzing the 14 candles you would be able to very accurately guess the RSI for that period. However, using an indicator to show you the actual value can be beneficial to reduce the time you need to process the data and it also avoids misinterpretations during live-moving markets.</p>
-<p>Oversold and Overbought<br>The general idea is that when the RSI shows extremely high or extremely low values (higher than 70 or lower than 30), price is oversold or overbought. But, let’s recap what we have just learned.  A high RSI simply means that there were more bullish candles than bearish candles. And although price can’t go on printing only bullish candles forever, it can be dangerous to rely on RSI information alone to call tops and bottoms.</p>
-<p>Yes, it is true that if 13 out of the past 14 candles were bullish and when the RSI is way above 70, it is likely that the bulls will probably step back soon, but relying on RSI alone should not be an option. The screenshot below highlights two periods when the RSI entered oversold (below 30) and stayed oversold for a long time. During the first period, price kept falling for 16 days before the RSI turned back above 30 and during the second period, price kept falling for 8 days when the RSI was oversold.</p>
+<p>第一部分，有9根阴线，4个小阳，和一个十字星，RSI值为15，展示了很强的走熊态势。</p>
+<p>第二部分，70，很强的上升势头</p>
+<p>第三部分，34，下跌态势稍微走缓</p>
+<p>从RSI指标中能看到的，即使不看RSI的值，我们也能从之前的14根K线猜到。然而使用RSI，我们可以很直观的看到市场的强弱，减少了对K线数据的计算，同时也避免了实时的错误分析。</p>
+<h2 id="超卖和超买"><a href="#超卖和超买" class="headerlink" title="超卖和超买"></a>超卖和超买</h2><p>一般来说，当RSI值超过70，表现为市场超买，当RSI低于30，市场表现为超卖。</p>
+<p>但是我们回过头来，再看看刚才说过的内容“RSI值越高，阳线涨幅多于阴线跌幅，说明涨势越强”。那么这就显得有些矛盾，所以说，单纯的通过RSI超买超卖来判断“顶底”，是不靠谱的。</p>
+<p>从下面的图中可以看到，过去的14根K线中有13根是阴线，而且对应的RSI值是小于30的，RSI呆在了超卖区域很长一段时间。</p>
 <p>RSI_oversold<br><img src="http://forex-blog.oss-cn-beijing.aliyuncs.com/RSI_3.png" alt="image"></p>
-<p>The RSI should not only be used to identify potential turning points. The RSI also signals very strong trending phases when it stays oversold or overbought for long periods.</p>
-<p>When Support and Resistance breaks<br>We have just said that the RSI identifies strong trending price movements. And with this knowledge the RSI is a great tool when it comes to support and resistance trading. The screenshot below shows the EUR/USD chart and the black horizontal line is the famous and strong 1.20 price level which acts as support and resistance.</p>
-<p>You can see that price went back to the 1.20 price level several times. During the first time, the RSI showed values of 63 and 57 which meant that although the power was more bullish, it wasn’t a very strong trend behind the price movement. A strong resistance level does usually not break easy and it requires a strong trend to make it past the price.</p>
+<p>RSI的超卖，超买区域，不应该简单的用来判断翻转点位，反而，如果RSI长期处于超卖／超买区域，说明市场正处于很强的下跌／上涨趋势当中。不应该轻易的逆势操作。</p>
+<h2 id="利用RSI做突破／反弹"><a href="#利用RSI做突破／反弹" class="headerlink" title="利用RSI做突破／反弹"></a>利用RSI做突破／反弹</h2><p>刚才提到了，通过RSI可以观察到趋势的强弱。通过这个特性，当价格走到支撑阻力位时，我们可以利用RSI这个好助手，来辅助交易。下图展示了EU4小时图，其中1.20位是一个非常坚挺的支撑／阻力位，1.20经历了多次的触碰.</p>
+<p>其中，第一次触碰，RSI值分别为63和57，意味着虽然上涨势头很猛，但是背后暗藏的价格动能并不是很强。<br>You can see that price went back to the 1.20 price level several times. During the first time, the RSI showed values of 63 and 57 which meant that although the power was more bullish, it wasn’t a very strong trend behind the price movement. A strong resistance level does usually not break easy and it requires a strong trend to make it past the price.</p>
 <p>The second time price went back to the level, the RSI was at 71, indicating a fairly strong bullish trend, the resistance level held again. It wasn’t until the last time when the RSI showed a value of 76 that the resistance level broke and price held above it with the RSI going all the way to currently 85.</p>
 <p>RSI_resistance<br><img src="http://forex-blog.oss-cn-beijing.aliyuncs.com/RSI_4.png" alt="image"></p>
 <p>The RSI can be a useful tool when it comes to quantifying price strength. Especially for rule-based traders who need a certain level of quantifiable data, the RSI comes in handy.</p>
